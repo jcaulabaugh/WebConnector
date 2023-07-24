@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCNiWebConnector", "WebConnectorApp\MCNiWebConnector.csproj", "{340A1C53-24D0-4482-B647-8DFF2094B44E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{923A6655-2B2B-4792-BC9D-FC741917174E} = {923A6655-2B2B-4792-BC9D-FC741917174E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebConnectorLibrary", "WebConnectorLibrary\WebConnectorLibrary.csproj", "{923A6655-2B2B-4792-BC9D-FC741917174E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{340A1C53-24D0-4482-B647-8DFF2094B44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340A1C53-24D0-4482-B647-8DFF2094B44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340A1C53-24D0-4482-B647-8DFF2094B44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340A1C53-24D0-4482-B647-8DFF2094B44E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923A6655-2B2B-4792-BC9D-FC741917174E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923A6655-2B2B-4792-BC9D-FC741917174E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923A6655-2B2B-4792-BC9D-FC741917174E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923A6655-2B2B-4792-BC9D-FC741917174E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7106B560-5B50-4C28-9830-B8D61BCF542F}
+	EndGlobalSection
+EndGlobal
